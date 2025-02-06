@@ -1,85 +1,90 @@
-Desafio Front End - INOVATEC
+# Desafio Front End - INOVATEC
 
-Sobre o Projeto
+## 📌 Sobre o Projeto
 
-Este projeto consiste em um sistema de gerenciamento de usuários, desenvolvido como parte do Desafio Front End para a empresa INOVATEC. O sistema permite listar, adicionar, editar e excluir usuários, utilizando uma API simples construída com Node.js e Express no backend e React com Bootstrap no frontend.
+Este projeto consiste em um sistema de gerenciamento de usuários, desenvolvido como parte do Desafio Front End para a empresa **INOVATEC**. O sistema permite listar, adicionar, editar e excluir usuários, utilizando uma API simples construída com **Node.js** e **Express** no backend e **React** com **Bootstrap** no frontend.
 
-Tecnologias Utilizadas
+---
 
-Frontend:
+## 🚀 Tecnologias Utilizadas
 
-React.js (com Vite)
+### 📌 Frontend:
+- React.js (com Vite)
+- Bootstrap (para estilização)
+- TypeScript
 
-Bootstrap (para estilização)
+### 📌 Backend:
+- Node.js
+- Express.js
 
-TypeScript
+### 🔧 Ferramentas Adicionais:
+- Yarn / npm (gerenciadores de pacotes)
+- Fetch API (para chamadas HTTP)
 
-Backend:
+---
 
-Node.js
+## 📂 Como Rodar o Projeto
 
-Express.js
-
-Ferramentas Adicionais:
-
-Yarn (gerenciador de pacotes)
-
-Fetch API (para chamadas HTTP)
-
-Como Rodar o Projeto
-
-1. Clonar o repositório
-
+### 1️⃣ Clonar o repositório
+```bash
 git clone https://github.com/seu-usuario/desafio-inovatec.git
 cd desafio-inovatec
+```
 
-2. Instalar dependências
+### 2️⃣ Instalar dependências
 
 Para o frontend:
-
-cd meu-projeto
-yarn install
+```bash
+yarn install  # ou npm install
+```
 
 Para o backend:
+```bash
+yarn install  # ou npm install
+```
 
-yarn install
-
-3. Rodar o backend
-
+### 3️⃣ Rodar o backend
+```bash
 node backend.js
+```
+O servidor rodará em: **http://localhost:3050**
 
-O servidor rodará em http://localhost:3050
+### 4️⃣ Rodar o frontend
+```bash
+yarn dev  # ou npm run dev
+```
+O projeto abrirá no navegador em: **http://localhost:5173**
 
-4. Rodar o frontend
+---
 
-yarn dev
+## ⚡ Funcionalidades
 
-O projeto abrirá no navegador em http://localhost:5173
+✅ **Listagem de Usuários**: Exibe todos os usuários cadastrados.
 
-Funcionalidades
+✅ **Cadastro de Usuários**: Formulário para adicionar novos usuários.
 
-Listagem de Usuários: Exibe todos os usuários cadastrados.
+✅ **Edição de Usuários**: Atualiza as informações de um usuário existente.
 
-Cadastro de Usuários: Formulário para adicionar novos usuários.
+✅ **Exclusão de Usuários**: Remove um usuário do sistema.
 
-Edição de Usuários: Atualiza as informações de um usuário existente.
+✅ **Abas de Navegação**: Interface dividida entre "Adicionar Usuário" e "Lista de Usuários".
 
-Exclusão de Usuários: Remove um usuário do sistema.
+---
 
-Abas de Navegação: Interface dividida entre "Adicionar Usuário" e "Lista de Usuários".
+## 🔥 Ajustes e Melhorias Futuras
 
-Ajustes e Melhorias Futuras
+- [ ] Implementar autenticação de usuários
+- [ ] Melhorar a responsividade da interface
+- [ ] Adicionar validação de formulários
+- [ ] Criar uma API mais robusta com banco de dados
 
-Implementar autenticação de usuários
+---
 
-Melhorar a responsividade da interface
+## 👨‍💻 Autor
 
-Adicionar validação de formulários
+Desenvolvido por **[Caue de Oliveira Barbosa]** para o Desafio Front End da **INOVATEC**.
 
-Criar uma API mais robusta com banco de dados
-
-Autor
-
-Desenvolvido por [Caue de Oliveira Barbosa] para o Desafio Front End da INOVATEC.
-
+📌 **LinkedIn**: [https://www.linkedin.com/in/caue-cassemiro/](#)
+📌 **GitHub**: [https://github.com/cauecassemiro](#)
+📌 **Instagram**: [https://www.instagram.com/cauecassemiro/](#)
 
