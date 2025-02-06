@@ -1,50 +1,85 @@
-# React + TypeScript + Vite
+Desafio Front End - INOVATEC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sobre o Projeto
 
-Currently, two official plugins are available:
+Este projeto consiste em um sistema de gerenciamento de usuários, desenvolvido como parte do Desafio Front End para a empresa INOVATEC. O sistema permite listar, adicionar, editar e excluir usuários, utilizando uma API simples construída com Node.js e Express no backend e React com Bootstrap no frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+Frontend:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+React.js (com Vite)
 
-- Configure the top-level `parserOptions` property like this:
+Bootstrap (para estilização)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+TypeScript
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Backend:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Node.js
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Express.js
+
+Ferramentas Adicionais:
+
+Yarn (gerenciador de pacotes)
+
+Fetch API (para chamadas HTTP)
+
+Como Rodar o Projeto
+
+1. Clonar o repositório
+
+git clone https://github.com/seu-usuario/desafio-inovatec.git
+cd desafio-inovatec
+
+2. Instalar dependências
+
+Para o frontend:
+
+cd meu-projeto
+yarn install
+
+Para o backend:
+
+yarn install
+
+3. Rodar o backend
+
+node backend.js
+
+O servidor rodará em http://localhost:3050
+
+4. Rodar o frontend
+
+yarn dev
+
+O projeto abrirá no navegador em http://localhost:5173
+
+Funcionalidades
+
+Listagem de Usuários: Exibe todos os usuários cadastrados.
+
+Cadastro de Usuários: Formulário para adicionar novos usuários.
+
+Edição de Usuários: Atualiza as informações de um usuário existente.
+
+Exclusão de Usuários: Remove um usuário do sistema.
+
+Abas de Navegação: Interface dividida entre "Adicionar Usuário" e "Lista de Usuários".
+
+Ajustes e Melhorias Futuras
+
+Implementar autenticação de usuários
+
+Melhorar a responsividade da interface
+
+Adicionar validação de formulários
+
+Criar uma API mais robusta com banco de dados
+
+Autor
+
+Desenvolvido por [Caue de Oliveira Barbosa] para o Desafio Front End da INOVATEC.
+
+
